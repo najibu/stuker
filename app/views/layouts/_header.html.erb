@@ -17,7 +17,7 @@
         <% if current_user %>
           <li><%= link_to "Dashboard", dashboard_path %></li>
           <li><%= link_to "Edit",  edit_user_registration_path %></li>
-          <li><%= link_to  "Destroy", destroy_user_session_path, method: :delete  %></li>
+          <li><%= link_to  "Signout", destroy_user_session_path, method: :delete  %></li>
         <% else %>
           <li><%= link_to "Login", new_user_session_path %><li>
         <% end %>
