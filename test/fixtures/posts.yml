@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: MyText
+  scheduled_at: 
+  user_id: 1
+  facebook: false
+  twitter: false
+
+two:
+  content: MyText
+  scheduled_at: 
+  user_id: 1
+  facebook: false
+  twitter: false
